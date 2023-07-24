@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Protein Pricer</title>
+
+    <script type="text/javascript" src="proteinpricer.js"></script>
+
+    <style>
+        body {
+            background-color: black;
+            text-align: left;
+            color: whitesmoke  }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Protein Pricer</h1>
+    <h5>Created by Gavin D on 23 July 2023</h5>
+    <h3>Calculate how much you are paying for the protein in your food!!</h3>
+    </center>
+    
+    <input id="foodName"> Name of food item (e.g. protein pancakes) <br/><br/>
+    <input id="protein"> Amount of protein per serving in grams (e.g. 15) <br/><br/>
+    <input id="price"> Price of the entire food item (e.g. 5.99) <br/><br/>
+    <input id="servings"> Number of servings (e.g. 11) <br/><br/>
+
+    <button onclick="findProteinCost()"> Calculate </button>
+    
+    <center>
+    <h3 id="message"> </h3>
+    </center>
+    
+</body>
+</html>
